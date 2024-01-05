@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "interview-reagan"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <youremail@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "0.0.331"
+openai = "0.27.7"
+pinecone-client = "2.2.1"
+tiktoken = "0.4.0"
+python-decouple = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
